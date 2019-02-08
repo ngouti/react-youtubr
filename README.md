@@ -22,7 +22,10 @@ const embedUrl = `https://www.youtube.com/embed/${videoId}`;
 ```
 #### Build out static app before adding api communication
 
-There is an example API response in index.js
+There is an example API response in index.js. Use it to build a static version of the site **first**, then make a fetch request to get live data:
+```
+GET: https://www.googleapis.com/youtube/v3/search?part=snippet&key=${keys.API_KEY}&q=${searchTerm}&type=video
+```
 
 When building app, try to follow something along the lines of the steps described in *Thinking in React* for building any React application
 
@@ -34,7 +37,6 @@ When building app, try to follow something along the lines of the steps describe
 6. Add inverse data flow
 7. Add server communication
 
-i.e. add some static initial state and only add in fetch request after
 
 #### api key
 
