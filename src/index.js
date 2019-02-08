@@ -6,6 +6,7 @@ import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
+/* GET: `https://www.googleapis.com/youtube/v3/search?part=snippet&key=${keys.API_KEY}&q=&type=video`*/ 
 // const response = [
 //   {
 //     etag: '"m2yskBQFythfE4irbTIeOgYYfBU/XoCknp0EO0YWZcuTVD_GhkJp_-M"',
