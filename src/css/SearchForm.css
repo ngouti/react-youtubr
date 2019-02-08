@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.searchbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed; /* Set the navbar to fixed position */
+  align-self: center;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+form.searchbar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+form.searchbar button {
+  float: center;
+  width: 20%;
+  padding: 10px;
+  background: darkgray;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.searchbar button:hover {
+  background: #0b7dda;
+}
+
